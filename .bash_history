@@ -255,3 +255,6 @@ which python
 gp
 which python
 exit
+which pip
+python
+exit

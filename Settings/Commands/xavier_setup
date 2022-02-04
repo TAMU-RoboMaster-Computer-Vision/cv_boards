@@ -3,7 +3,7 @@
 # update everything as always
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt-get install -y curl python3 python3-pip
+sudo apt-get install -y curl
 
 # 
 # install nix
@@ -12,7 +12,6 @@ if ! [ -d "/nix/store" ]
 then
     curl -Lk https://releases.nixos.org/nix/nix-2.3.7/install | sh -s
 fi
-
 
 # 
 # install the basics
@@ -33,12 +32,19 @@ nix-env -iA nixpkgs.vscode
 
 # vs code extensions
 code --install-extension jeff-hykin.swe-starter-pack
+code --install-extension jeff-hykin.jeff-hykin.better-syntax
 code --install-extension jeff-hykin.xd-theme
 code --install-extension jeff-hykin.PKief.material-icon-theme
+
+# 
+# ubunutu packages
+# 
+sudo apt-get install -y python3 python3-pip python3-venv
+python3 -m pip install --upgrade pip # <- yup needs to be seperate
+python3 -m pip install poetry
 
 #
 # setup for tensorrt
 #
-python3 -m pip install --upgrade pip # <- yup needs to be seperate
 python3 -m pip install 'pycuda<2021.1'
 python3 -m pip install nvidia-pyindex
