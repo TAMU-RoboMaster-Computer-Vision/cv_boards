@@ -111,3 +111,90 @@ commands/start
 source .venv/bin/activate
 pip install nvidia-tensorrt
 exit
+python --version
+gs
+exit
+add_execute_permission ./shell_hooks/commands/*
+echo ./shell_hooks/commands/*
+shopt -s dotglob
+shopt -s globstar
+echo ./shell_hooks/commands/*
+setopt extended_glob
+set +f
+echo ./shell_hooks/commands/*
+bash --version
+echo ./shell_hooks/commands/*
+set -o glob
+set -o globstar
+set +o noglob
+echo ./shell_hooks/commands/*
+shopt -s extglob
+echo ./shell_hooks/commands/*
+which sh
+sh --version
+sh --help
+man sh
+sh -v
+exit
+storage
+./commands/tools/file_system/add_execute_permission ~/shell_hooks/commands/
+storage
+./commands/tools/file_system/add_execute_permission ~/shell_hooks/commands/add_execute_permission 
+./commands/tools/file_system/add_execute_permission ~/shell_hooks/commands/storage
+storage
+./commands/tools/file_system/add_execute_permission ~/shell_hooks/commands/*
+add_execute_permission ./shell_hooks/commands/*
+echo ./shell_hooks/commands/*
+bash
+exit
+gs
+git status
+git clone https://github.com/TAMU-RoboMaster-Computer-Vision/cv_boards
+mv cv_boards/.git .git
+gs
+storage 
+df -h ./Downloads/
+du -h ./Downloads/
+du -hs ./Downloads/
+du -hs ./Downloads/*
+gs
+gp init
+gs
+gnb xavier
+gnb xavier3
+gs
+bash
+gp
+gs
+git pull
+nix-env -iA nixpkgs.git-subrepo
+gs
+cd repos
+gs
+cd cv_main/
+gs
+git checkout dev
+cd ../..
+gs
+git subrepo help
+gs
+gundo
+gs
+git_delete_changes 
+gs
+git pull
+gs
+rm ./repos/cv_main/
+rm -rg ./repos/cv_main/
+rm -rf ./repos/cv_main/
+mv cv_main/ ./repos/cv_main
+ln -s ./repos/cv_main ./cv_main
+gs
+gp add some setup
+gs
+cd cv_main
+ll
+gs
+python --version
+bash
+exit

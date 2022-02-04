@@ -8,7 +8,7 @@ if ! [ -z "$path_to_python_3" ]
 then
     # make python refer to python3 if it exists
     python () {
-        "$(path_to_python_3)" "$@"
+        "$path_to_python_3" "$@"
     }
 fi
 
