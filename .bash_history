@@ -218,3 +218,35 @@ exit
 exit
 exit
 exit
+gs
+ll Network\ Persistent\ State 
+gs
+gp reorganize
+echo "$({cd ; pwd})"
+echo "$({ cd ; pwd })"
+echo "$(bash -c 'cd;pwd')"
+bash
+gs
+gp improve
+gs
+which python
+python --version
+which $python
+which -a python
+which -a python3
+ln -s /usr/bin/python3 ~/Settings/Commands/python
+which python
+exit
+echo *
+echo ./main/*
+echo "./main/"*
+shopt -s nullglob
+echo "./main/"*
+echo ./cv_main/*
+add_execute_permission shell_hooks/commands/
+add_execute_permission shell_hooks/commands/*
+storage
+gs
+gp more setup
+bash
+exit

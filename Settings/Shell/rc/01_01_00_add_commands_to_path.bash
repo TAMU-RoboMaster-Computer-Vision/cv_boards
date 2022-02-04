@@ -1,1 +1,1 @@
-export PATH="$HOME/Settings/commands:$PATH"
+export PATH="$HOME/Settings/Commands:$PATH"
