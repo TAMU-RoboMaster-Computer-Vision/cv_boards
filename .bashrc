@@ -1,5 +1,5 @@
-for each in $(ls ~/shell_hooks/rc)
+for each in $(ls ~/Settings/Shell/rc)
 do
     echo "setting up: $each"
-    . ~/shell_hooks/rc/$each
+    . ~/Settings/Shell/rc/$each
 done

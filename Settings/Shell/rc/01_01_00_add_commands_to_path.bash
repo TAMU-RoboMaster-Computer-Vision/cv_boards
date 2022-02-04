@@ -1,0 +1,1 @@
+export PATH="$HOME/Settings/commands:$PATH"

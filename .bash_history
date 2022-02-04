@@ -13,7 +13,7 @@ nano ./.bashrc
 cd 
 nano ./.bashrc 
 source .bashrc 
-mv profile_hooks/ shell_hooks
+mv profile_hooks/ Settings/Shell
 source .bashrc 
 nano ./.bashrc 
 source .bashrc 
@@ -57,7 +57,7 @@ git status
 git pull
 gcp
 commands/start
-code ../shell_hooks/rc/06_00_00_setup_venv.bash 
+code ../Settings/Shell/rc/06_00_00_setup_venv.bash 
 gs
 exit
 commands/start
@@ -80,11 +80,11 @@ gs
 commands/start 
 commands/modeling/build 
 which nvcc
-code ~/shell_hooks/rc/01_00_00_setup_cuda.bash
+code ~/Settings/Shell/rc/01_00_00_setup_cuda.bash
 code ~/.bashrc
-code ~/shell_hooks/rc/03_00_00_cmake.bash
+code ~/Settings/Shell/rc/03_00_00_cmake.bash
 source ~/.bashrc
-mv /home/xavier3/shell_hooks/rc/03_realsense.bash /home/xavier3/shell_hooks/rc/03_00_00_realsense.bash
+mv /home/xavier3/Settings/Shell/rc/03_realsense.bash /home/xavier3/Settings/Shell/rc/03_00_00_realsense.bash
 source ~/.bashrc
 commands/modeling/build 
 gs
@@ -114,22 +114,22 @@ exit
 python --version
 gs
 exit
-add_execute_permission ./shell_hooks/commands/*
-echo ./shell_hooks/commands/*
+add_execute_permission ./Settings/Shell/commands/*
+echo ./Settings/Shell/commands/*
 shopt -s dotglob
 shopt -s globstar
-echo ./shell_hooks/commands/*
+echo ./Settings/Shell/commands/*
 setopt extended_glob
 set +f
-echo ./shell_hooks/commands/*
+echo ./Settings/Shell/commands/*
 bash --version
-echo ./shell_hooks/commands/*
+echo ./Settings/Shell/commands/*
 set -o glob
 set -o globstar
 set +o noglob
-echo ./shell_hooks/commands/*
+echo ./Settings/Shell/commands/*
 shopt -s extglob
-echo ./shell_hooks/commands/*
+echo ./Settings/Shell/commands/*
 which sh
 sh --version
 sh --help
@@ -137,14 +137,14 @@ man sh
 sh -v
 exit
 storage
-./commands/tools/file_system/add_execute_permission ~/shell_hooks/commands/
+./commands/tools/file_system/add_execute_permission ~/Settings/Shell/commands/
 storage
-./commands/tools/file_system/add_execute_permission ~/shell_hooks/commands/add_execute_permission 
-./commands/tools/file_system/add_execute_permission ~/shell_hooks/commands/storage
+./commands/tools/file_system/add_execute_permission ~/Settings/Shell/commands/add_execute_permission 
+./commands/tools/file_system/add_execute_permission ~/Settings/Shell/commands/storage
 storage
-./commands/tools/file_system/add_execute_permission ~/shell_hooks/commands/*
-add_execute_permission ./shell_hooks/commands/*
-echo ./shell_hooks/commands/*
+./commands/tools/file_system/add_execute_permission ~/Settings/Shell/commands/*
+add_execute_permission ./Settings/Shell/commands/*
+echo ./Settings/Shell/commands/*
 bash
 exit
 gs
