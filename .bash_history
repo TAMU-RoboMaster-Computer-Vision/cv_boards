@@ -250,3 +250,8 @@ gs
 gp more setup
 bash
 exit
+gs
+which python
+gp
+which python
+exit
