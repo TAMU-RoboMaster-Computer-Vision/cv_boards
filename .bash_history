@@ -198,3 +198,23 @@ gs
 python --version
 bash
 exit
+exit
+target_path="$(bash -c 'cd;pwd')/Settings/Shell/rc"
+echo $target_path
+echo $target_path/*
+echo $target_path/*.bash
+exit
+exit
+echo /home/xavier3/Settings/Shell/rc/*.bash
+for_each_item_in="$target_path"/*.bash
+echo $for_each_item_in 
+exit
+gs
+exit
+for_each_item_in="$target_path"/*.bash
+echo $for_each_item_in 
+exit
+exit
+exit
+exit
+exit
