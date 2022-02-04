@@ -1,0 +1,1 @@
+export PATH="~/Downloads/cmake-3.13.0/bin/:$PATH"
