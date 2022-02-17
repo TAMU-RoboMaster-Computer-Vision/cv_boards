@@ -24,8 +24,17 @@
 !/.irbrc
 !/.viminfo
 !/.wget-hsts
+!/.xsessionrc
 !/.bash_history
 !/package.json
+/.ICEauthority
+/.Xauthority
+/.xsessionrc
+/.lesshst
+/.nix-channels
+/.nix-profil
+/.sudo_as_admin_successful
+/.examples.desktop
 
 #
 # Saftey precautions
