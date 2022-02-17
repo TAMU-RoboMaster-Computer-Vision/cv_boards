@@ -1,4 +1,6 @@
 cd "$SHELL_STANDARD_ENV_SOURCE/shells/"
+ln -sf ../../../bash/events/rc/00_01_nvidia_defaults.bash ./zsh/events/rc/
+ln -sf ../../../bash/events/rc/00_03_nvidia_bash_defaults.bash ./zsh/events/rc/
 ln -sf ../../../bash/events/rc/01_00_linux_keybindings.bash ./zsh/events/rc/
 ln -sf ../../../bash/events/rc/01_11_set_editor_var.bash ./zsh/events/rc/
 ln -sf ../../../bash/events/rc/02_00_universal_tools.bash ./zsh/events/rc/
