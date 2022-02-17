@@ -1,9 +1,10 @@
 #
 # Ignore all folders by default, except these
 #
-/*
+/*/
 !Commands/
 !Terminal/
+!Desktop
 
 # 
 # Custom
@@ -21,6 +22,9 @@
 !/.zlogout
 !/.zlogin
 !/.irbrc
+!/.viminfo
+!/.wget-hsts
+!/.bash_history
 !/package.json
 
 #

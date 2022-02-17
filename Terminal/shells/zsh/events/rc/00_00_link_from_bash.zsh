@@ -14,4 +14,10 @@ ln -sf ../../../bash/events/rc/05_03_nix.bash ./zsh/events/rc/
 ln -sf ../../../bash/events/rc/05_04_rust.bash ./zsh/events/rc/
 ln -sf ../../../bash/events/rc/06_01_ld_path.bash ./zsh/events/rc/
 ln -sf ../../../bash/events/rc/06_01_setup_cuda.bash ./zsh/events/rc/
+ln -sf ../../../bash/events/rc/01_02_00_setup_cuda.bash  ./zsh/events/rc/
+ln -sf ../../../bash/events/rc/03_00_00_cmake.bash  ./zsh/events/rc/
+ln -sf ../../../bash/events/rc/03_00_00_realsense.bash  ./zsh/events/rc/
+ln -sf ../../../bash/events/rc/05_00_00_gtk_fix.bash  ./zsh/events/rc/
+ln -sf ../../../bash/events/rc/05_01_00_setup_python.bash  ./zsh/events/rc/
+ln -sf ../../../bash/events/rc/06_00_00_setup_venv.bash  ./zsh/events/rc/
 cd -
