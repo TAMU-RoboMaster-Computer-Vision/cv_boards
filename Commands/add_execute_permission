@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# for each argument (in a argument-might-have-spaces friendly way)
+for arg in "$@"; do
+    # if its a file
+    if [[ -f "$arg" ]]; then
+        chmod ugo+x "$arg" &>/dev/null || sudo chmod ugo+x "$arg"
+    fi
+
+    # if its a directory
+    if [[ -f "$arg" ]]; then
+        chmod -R ugo+r "$arg" &>/dev/null || sudo chmod -R ugo+x "$arg"
+    fi
+
+    # fail if the file/directory doesnt exist
+    if ! [[ -e "$arg" ]]; then
+        exit 0
+    fi
+done
