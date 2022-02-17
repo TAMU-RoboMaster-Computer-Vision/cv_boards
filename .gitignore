@@ -35,6 +35,7 @@
 /.nix-profil
 /.sudo_as_admin_successful
 /.examples.desktop
+/Network Persistent State
 
 #
 # Saftey precautions
