@@ -35,9 +35,6 @@ print () {
 }
 
 # 
-# sudo replacement (avoids 'command not found' issues)
-# 
-# 
 # sudo alternative (avoids 'command not found' issues)
 # 
 doit () {

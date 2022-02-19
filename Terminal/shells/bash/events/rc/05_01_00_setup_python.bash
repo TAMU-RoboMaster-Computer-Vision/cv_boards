@@ -14,4 +14,12 @@ fi
 
 
 # add the project
-export PYTHONPATH="$HOME/cv_main/main"
+export PYTHONPATH="$PYTHONPATH:$HOME/cv_main/main"
+
+# if on a board
+username="$(whoami)"
+if [[ "$username" = "xavier"* ]] || [[ "$username" = "nvidia"* ]]
+then
+    # add all the local stuff
+    export PYTHONPATH="/home/$username/cv_main/main:/usr/lib/python36.zip:/usr/lib/python3.6:/usr/lib/python3.6/lib-dynload:/home/$username/.local/lib/python3.6/site-packages:/usr/lib/python3.6/site-packages:/usr/local/lib/python3.6/dist-packages:/usr/lib/python3/dist-packages:/usr/lib/python3.6/dist-packages:$PYTHONPATH"
+fi

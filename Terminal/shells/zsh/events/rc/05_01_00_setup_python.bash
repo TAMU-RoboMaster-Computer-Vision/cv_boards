@@ -1,0 +1,1 @@
+../../../bash/events/rc/05_01_00_setup_python.bash

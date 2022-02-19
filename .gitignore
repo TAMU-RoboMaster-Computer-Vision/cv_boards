@@ -27,6 +27,7 @@
 !/.xsessionrc
 !/.bash_history
 !/package.json
+!/requirements.txt
 /.ICEauthority
 /.Xauthority
 /.xsessionrc
@@ -35,6 +36,7 @@
 /.nix-profil
 /.sudo_as_admin_successful
 /.examples.desktop
+/.nix-profile
 /Network Persistent State
 
 #

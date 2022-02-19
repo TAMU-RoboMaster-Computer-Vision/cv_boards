@@ -1,0 +1,1 @@
+../../../bash/events/rc/00_01_nvidia_defaults.bash

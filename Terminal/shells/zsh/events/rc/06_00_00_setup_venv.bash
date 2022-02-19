@@ -1,0 +1,1 @@
+../../../bash/events/rc/06_00_00_setup_venv.bash

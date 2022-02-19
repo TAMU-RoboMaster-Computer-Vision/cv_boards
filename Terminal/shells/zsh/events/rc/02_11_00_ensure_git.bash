@@ -1,0 +1,1 @@
+../../../bash/events/rc/02_11_00_ensure_git.bash

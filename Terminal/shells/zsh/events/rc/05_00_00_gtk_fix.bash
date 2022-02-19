@@ -1,0 +1,1 @@
+../../../bash/events/rc/05_00_00_gtk_fix.bash
