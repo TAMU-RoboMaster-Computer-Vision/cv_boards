@@ -5,8 +5,6 @@
 !Commands/
 !Terminal/
 !Desktop
-!.ssh/
-.ssh/*
 
 # 
 # Custom
@@ -30,10 +28,6 @@
 !/.bash_history
 !/package.json
 !/requirements.txt
-!/.ssh/authorized_keys
-!/.ssh/known_hosts
-!/.ssh/config
-!/.ssh/*.pub
 /.ICEauthority
 /.Xauthority
 /.xsessionrc
@@ -44,6 +38,31 @@
 /.examples.desktop
 /.nix-profile
 /Network Persistent State
+
+#
+# complicated
+#
+
+# public stuff from ssh
+!/.ssh/
+/.ssh/*
+!/.ssh/authorized_keys
+!/.ssh/known_hosts
+!/.ssh/config
+!/.ssh/*.pub
+
+# misc config items
+!/.config/
+/.config/*
+!/.config/nixpkgs/
+!/.config/alacritty/
+!/.config/fish/
+!/.config/Code/
+/.config/Code/*
+!/.config/Code/User
+/.config/Code/User/*
+!/.config/Code/User/settings.json
+!/.config/Code/User/snippets
 
 #
 # Saftey precautions
