@@ -1,364 +1,3 @@
-repo=https://github.com/TAMU-Robomasters/cv_main setup_or_copy="setup" eval "$(curl -fsSL git.io/JE2Zm || wget -qO- git.io/JE2Zm)"
-rm -rf cv_main/
-repo=https://github.com/TAMU-Robomasters/cv_main setup_or_copy="setup" eval "$(curl -fsSL git.io/JE2Zm || wget -qO- git.io/JE2Zm)"
-bg %1
-nano ./.bashrc 
-mkdir profile_hooks
-cd profile_hooks/
-mkdir rc
-cd rc/
-touch 05_00_00_gtk_fix.bash
-nano 05_00_00_gtk_fix.bash 
-nano ./.bashrc 
-cd 
-nano ./.bashrc 
-source .bashrc 
-mv profile_hooks/ Settings/Shell
-source .bashrc 
-nano ./.bashrc 
-source .bashrc 
-fd libgtk3-nocsd.so.0
-exit
-echo $LD_PRELOAD 
-which nix
-nix-env -iA fd
-nix-env -iA nixpkgs.fd
-fd libgtk3-nocsd.so.0
-fd libgtk3-nocsd.so.0 /
-nix-env -iA nixpkgs.nano
-cd ~/Downloads
-wget https://download.stereolabs.com/zedsdk/3.6/jp45/jetsons
-./jetsons.4
-./jetsons
-yes | ./jetsons
-gs
-git status
-cd -
-git status
-git pull
-./commands/setup/onyx 
-which python3
-which python
-python --version
-which pip3
-git pull
-./commands/setup/onnx 
-top
-nix-env -iA nixpkgs.bottom
-bottom
-which bottom
-ytop
-which nix
-ll /home/xavier3/.nix-profile/bin/
-btm
-which bottom
-gs
-git status
-git pull
-gcp
-commands/start
-code ../Settings/Shell/rc/06_00_00_setup_venv.bash 
-gs
-exit
-commands/start
-./commands/setup/pycuda 
-gs
-gcp
-gs
-git stash 
-if ! git config --global user.email;         then  echo hi; fi
-gs
-git stash
-git pull
-gc dev
-git --version
-git checkout dev
-which git
-nix-env -iA nixpkgs.git
-which git
-gs
-commands/start 
-commands/modeling/build 
-which nvcc
-code ~/Settings/Shell/rc/01_00_00_setup_cuda.bash
-code ~/.bashrc
-code ~/Settings/Shell/rc/03_00_00_cmake.bash
-source ~/.bashrc
-mv /home/xavier3/Settings/Shell/rc/03_realsense.bash /home/xavier3/Settings/Shell/rc/03_00_00_realsense.bash
-source ~/.bashrc
-commands/modeling/build 
-gs
-gcp
-git pull
-gs
-exit
-cd cv_main/
-./commands/modeling/build 
-pwd
-exit
-nix-env -iA nixpkgs.python38Packages.pytorch
-users="$(grep '^sudo:.*$' /etc/group | cut -d: -f4)"
-echo $users
-storage
-df -h
-cd cv_main/
-git pull
-commands/start
-which nvcc
-git pull
-commmands/start
-commands/start
-source .venv/bin/activate
-pip install nvidia-tensorrt
-exit
-python --version
-gs
-exit
-add_execute_permission ./Settings/Shell/commands/*
-echo ./Settings/Shell/commands/*
-shopt -s dotglob
-shopt -s globstar
-echo ./Settings/Shell/commands/*
-setopt extended_glob
-set +f
-echo ./Settings/Shell/commands/*
-bash --version
-echo ./Settings/Shell/commands/*
-set -o glob
-set -o globstar
-set +o noglob
-echo ./Settings/Shell/commands/*
-shopt -s extglob
-echo ./Settings/Shell/commands/*
-which sh
-sh --version
-sh --help
-man sh
-sh -v
-exit
-storage
-./commands/tools/file_system/add_execute_permission ~/Settings/Shell/commands/
-storage
-./commands/tools/file_system/add_execute_permission ~/Settings/Shell/commands/add_execute_permission 
-./commands/tools/file_system/add_execute_permission ~/Settings/Shell/commands/storage
-storage
-./commands/tools/file_system/add_execute_permission ~/Settings/Shell/commands/*
-add_execute_permission ./Settings/Shell/commands/*
-echo ./Settings/Shell/commands/*
-bash
-exit
-gs
-git status
-git clone https://github.com/TAMU-RoboMaster-Computer-Vision/cv_boards
-mv cv_boards/.git .git
-gs
-storage 
-df -h ./Downloads/
-du -h ./Downloads/
-du -hs ./Downloads/
-du -hs ./Downloads/*
-gs
-gp init
-gs
-gnb xavier
-gnb xavier3
-gs
-bash
-gp
-gs
-git pull
-nix-env -iA nixpkgs.git-subrepo
-gs
-cd repos
-gs
-cd cv_main/
-gs
-git checkout dev
-cd ../..
-gs
-git subrepo help
-gs
-gundo
-gs
-git_delete_changes 
-gs
-git pull
-gs
-rm ./repos/cv_main/
-rm -rg ./repos/cv_main/
-rm -rf ./repos/cv_main/
-mv cv_main/ ./repos/cv_main
-ln -s ./repos/cv_main ./cv_main
-gs
-gp add some setup
-gs
-cd cv_main
-ll
-gs
-python --version
-bash
-exit
-exit
-target_path="$(bash -c 'cd;pwd')/Settings/Shell/rc"
-echo $target_path
-echo $target_path/*
-echo $target_path/*.bash
-exit
-exit
-echo /home/xavier3/Settings/Shell/rc/*.bash
-for_each_item_in="$target_path"/*.bash
-echo $for_each_item_in 
-exit
-gs
-exit
-for_each_item_in="$target_path"/*.bash
-echo $for_each_item_in 
-exit
-exit
-exit
-exit
-exit
-gs
-ll Network\ Persistent\ State 
-gs
-gp reorganize
-echo "$({cd ; pwd})"
-echo "$({ cd ; pwd })"
-echo "$(bash -c 'cd;pwd')"
-bash
-gs
-gp improve
-gs
-which python
-python --version
-which $python
-which -a python
-which -a python3
-ln -s /usr/bin/python3 ~/Settings/Commands/python
-which python
-exit
-echo *
-echo ./main/*
-echo "./main/"*
-shopt -s nullglob
-echo "./main/"*
-echo ./cv_main/*
-add_execute_permission shell_hooks/commands/
-add_execute_permission shell_hooks/commands/*
-storage
-gs
-gp more setup
-bash
-exit
-gs
-which python
-gp
-which python
-exit
-which pip
-python
-exit
-pwd
-gs
-ln -s ../repos/cv_main ./Desktop/cv_main
-cd Desktop/
-ll
-cd repos
-cd 
-cd repos/
-cd cv_main/
-commands/start
-cd 
-mv .venv/ .venv.old
-python --version
-pip --version
-pip freeze 
-python
-exit
-pwd
-gs
-gfpull
-gs
-bash
-exit
-pwd
-rm .venv
-exit
-python
-cd repos/main
-cd repos/cv_main/
-pwd
-commands/start
-python main/_tests/test_main.py
-pip install super_map
-pip install ez-yaml
-pip install dict-recursive-update walk-up pyserial filterpy regex
-python main/_tests/test_main.py
-ll /dev/ttyTHS0
-doit --version
-doit python main/_tests/test_main.py
-python
-doit python --version
-doit which python
-env
-doit () {     sudo -E env "$(env)" "$@"; }
-doit python --version
-doit bash -c 'echo $PATH'
-env
-doit () {     sudo -E env "PATH=$PATH" -i -u "$@"; }
-doit bash -c 'echo $PATH'
-doit () {     sudo -i -u -E env "PATH=$PATH" "$@"; }
-doit bash -c 'echo $PATH'
-doit () {     sudo -i -u "$@"; }
-doit bash -c 'echo $PATH'
-doit () {     sudo -E env "PATH=$PATH" "$@"; }
-doit bash -c 'echo $PATH'
-doit bash -c 'echo $PYTHONPATH'
-doit () {     sudo -i -E env "PATH=$PATH" "$@"; }
-doit bash -c 'echo $PYTHONPATH'
-echo $PYTHONPATH
-doit () {     sudo -i -E env "PATH=$PATH" "PYTHONPATH=$PYTHONPATH" "$@"; }
-echo $PYTHONPATH
-doit bash -c 'echo $PYTHONPATH'
-man sudo
-sudo --help
-doit () {     sudo -i --preserve-env "$@"; }
-doit bash -c 'echo $PYTHONPATH'
-doit 
-declare -p
-awk 'BEGIN{for(v in ENVIRON) print v}'
-$ENVIRON
-echo $ENVIRON
-env -0 | cut -z -f1 -d= | tr '\0' '\n' | sort | column
-env| cut -z -f1 -d= | tr '\0' '\n' | sort | column
-env | cut -z -f1 -d= | tr '\0' '\n' | sort | column
-env -0 | cut -z -f1 -d= | tr '\0' '\n' | sort | column
-printenv | sed 's;=.*;;' | sort
-awk 'BEGIN{for(v in ENVIRON) print v}'
-awk 'BEGIN{for(v in ENVIRON) print v}' | tr '
-' ' '
-doit () {     sudo -i --preserve-env="$( awk 'BEGIN{for(v in ENVIRON) print v}' | tr '
-' ' ')" "$@"; }
-doit bash -c 'echo $PYTHONPATH'
-doit bash -c 'echo $PATH'
-doit () {     sudo -E env "PATH=$PATH" "$@"; }
-doit bash -c 'echo $PATH'
-a="$(env)"
-a
-echo $a
-doit () {     sudo -i --preserve-env="$(env)" "$@"; }
-doit bash -c 'echo $PATH'
-doit () {     env_var_string="";     for env_var in "$(env)"; do         env_var_string="$env_var_string --preserve-env='$env_var'";     done;     echo 'env_var_string: '"$env_var_string";     sudo -i $env_var_string "$@"; }
-doit bash -c 'echo $PATH'
-doit () {     sudo -i bash -c "$(escape_shell_argument "$(env)");
-        $(escape_shell_arguments "$@")
-    "; }
-doit bash -c 'echo $PATH'
-doit () {     bash_argument="$(escape_shell_argument "$(env)");
-        $(escape_shell_arguments "$@")
-    ";     echo 'bash_argument: '"$bash_argument";     sudo -i bash -c "$bash_argument"; }
-doit bash -c 'echo $PATH'
-doit () {     bash_argument="
         $(env)
         $(escape_shell_arguments "$@")
     ";     echo 'bash_argument: '"$bash_argument";     sudo -i bash -c "$bash_argument"; }
@@ -841,3 +480,99 @@ nixi zsh
 nix-env -iA nixpkgs.zsh
 zsh
 exit
+ll /nix/var/nix/profiles/per-user/
+ll /nix/var/nix/profiles/per-user/xavier3/
+ll /nix/var/nix/profiles/per-user/xavier3/profile/bin/
+. /etc/profile.d/nix.sh
+. "/home/$(whoami)/.nix-profile/etc/profile.d/nix.sh"
+__temp_var__user_nix_bin="/nix/var/nix/profiles/per-user/$(whoami)/profile/bin/"
+my_path 
+ll /nix/var/nix/profiles/per-user/xavier3/profile/bin/
+ll /nix/var/nix/profiles/per-user/xavier3/profile/bin/nix
+/nix/var/nix/profiles/per-user/xavier3/profile/bin/nix
+which nix
+zsh
+exit
+zsh
+which nix
+which python
+bash
+exit
+python3 main/main.py
+cd ../../
+ls
+git add .
+git commit -m"for the merge"
+git push 
+fd TensortRT
+fd tensorrt
+fd TensorRT
+tldr
+tldr fd
+cd /
+fd tensort
+fd tensorrt
+ls usr/lib/python3.6/dist-packages/tensorrt
+ls -a usr/lib/python3.6/dist-packages/tensorrt
+ls usr/share/doc/tensorrt-8.0.1.6
+ls usr/src/tensorrt
+ls usr/src/tensorrt/bin
+tree
+tree -L=2
+tldr tree
+tree -L 2
+ls usr/src/tensorrt/bin
+cd usr/src/tensorrt/bin
+tree -L 2
+cd ..
+tree -L 2
+tree -L 3
+dpkg -l | grep nvinfer
+fd libnvinfer
+fd / libnvinfer
+fd \ libnvinfer
+cd /
+fd libnvinfer
+fd include
+fd tensor*include
+python main/main.py
+cd ..
+python main/main.py
+cd cv_main
+python main/main.py
+python3 main/_tests/test_main.py
+python main/main.py
+ls
+git status
+git stash
+git checkout zed-wip
+ls
+python main/main.py
+lsusb
+python main/main.py
+cd main/subsystems/modeling/model
+cd ../plugins
+make
+cd ../../../
+cd subsystems
+ls
+cd modeling
+ls
+cd model
+ls
+make
+cd ../plugins
+ls
+make
+ls /usr/local/
+nixi fd
+nix-env -iA nixpkgs.fd
+cd 
+cd /
+git add .
+cd cv_main
+ls
+cd Desktop
+nix-env -iA nixpkgs.tldr
+nix-env -iA nixpkgs.tree
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

@@ -5,6 +5,8 @@
 !Commands/
 !Terminal/
 !Desktop
+!.ssh/
+.ssh/*
 
 # 
 # Custom
@@ -28,6 +30,10 @@
 !/.bash_history
 !/package.json
 !/requirements.txt
+!/.ssh/authorized_keys
+!/.ssh/known_hosts
+!/.ssh/config
+!/.ssh/*.pub
 /.ICEauthority
 /.Xauthority
 /.xsessionrc
