@@ -1,3 +1,10 @@
+# do nothing if non-iteractive (otherwise scp breaks)
+test -t 0
+if ! [ $? -eq 0 ]
+then
+    return
+fi
+
 # 
 # shell-agnostic setup
 # 

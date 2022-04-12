@@ -33,17 +33,43 @@
 /.xsessionrc
 /.lesshst
 /.nix-channels
-/.nix-profil
+/.nix-profile
 /.sudo_as_admin_successful
 /.examples.desktop
-/.nix-profile
 /Network Persistent State
+
+#
+# complicated
+#
+
+# public stuff from ssh
+!/.ssh/
+/.ssh/*
+!/.ssh/authorized_keys
+!/.ssh/known_hosts
+!/.ssh/config
+!/.ssh/*.pub
+
+# misc config items
+!/.config/
+/.config/*
+!/.config/nixpkgs/
+!/.config/alacritty/
+!/.config/fish/
+!/.config/Code/
+/.config/Code/*
+!/.config/Code/User
+/.config/Code/User/*
+!/.config/Code/User/keybindings.json
+!/.config/Code/User/settings.json
+!/.config/Code/User/snippets
 
 #
 # Saftey precautions
 #
 
 # (contains auth stuff)
+.ssh/id_rsa
 .vsce
 .npmrc
 .Xauthority
