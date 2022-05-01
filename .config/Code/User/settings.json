@@ -1,5 +1,6 @@
 {
     "workbench.colorTheme": "XD Theme",
     "workbench.iconTheme": "material-icon-theme",
-    "window.zoomLevel": 2
+    "workbench.tree.indent": 38,
+    "terminal.integrated.scrollback": 10000000
 }
