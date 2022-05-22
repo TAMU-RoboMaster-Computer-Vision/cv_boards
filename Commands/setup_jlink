@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# 
+# setup jlink
+# 
+mkdir -p "$HOME/repos"
+cd "$HOME/repos"
+filename="JLink_Linux_V766a_arm64"
+sudo apt-get install libicu60
+sudo apt-get install libxrender1
+wget --post-data 'accept_license_agreement=accepted&non_emb_ctr=confirmed&submit=Download+software' https://www.segger.com/downloads/jlink/$filename.tgz
+tar xvf "$filename.tgz"
+rm "$filename.tgz"
+cd "$filename/"
+sudo cp 99-jlink.rules /etc/udev/rules.d/
+sudo udevadm control -R
+sudo udevadm trigger --action=remove --attr-match=idVendor=1366 --subsystem-match=usb
+sudo udevadm trigger --action=add    --attr-match=idVendor=1366 --subsystem-match=usb
