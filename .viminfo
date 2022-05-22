@@ -11,8 +11,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq
+|2,0,1650833249,,"wq"
 :q
-|2,0,1643308249,,"q"
+|2,0,1650743949,,"q"
+:Q
+|2,0,1650743948,,"Q"
 
 # Search String History (newest to oldest):
 
@@ -25,14 +29,96 @@
 # Registers:
 
 # File marks:
-'0  1  0  /README.txt
-|4,48,1,0,1643308249,"/README.txt"
+'0  1  0  /etc/fstab
+|4,48,1,0,1650833249,"/etc/fstab"
+'1  1  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,49,1,0,1650743975,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+'2  334  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,50,334,0,1650743949,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+'3  334  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,51,334,0,1650743949,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+'4  1  0  /README.txt
+|4,52,1,0,1643308249,"/README.txt"
 
 # Jumplist (newest first):
+-'  1  0  /etc/fstab
+|4,39,1,0,1650833249,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1650833249,"/etc/fstab"
+-'  1  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,1,0,1650743975,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  1  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,1,0,1650743975,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  1  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,1,0,1650743975,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  1  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,1,0,1650743975,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  334  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,334,0,1650743949,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  334  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,334,0,1650743949,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  334  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,334,0,1650743949,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  334  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,334,0,1650743949,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  334  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,334,0,1650743949,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  334  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,334,0,1650743949,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  334  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,334,0,1650743949,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  334  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,334,0,1650743949,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  1  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,1,0,1650743902,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  1  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,1,0,1650743902,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  1  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,1,0,1650743902,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  1  0  ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+|4,39,1,0,1650743902,"~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
+-'  1  0  /README.txt
+|4,39,1,0,1643308249,"/README.txt"
 -'  1  0  /README.txt
 |4,39,1,0,1643308249,"/README.txt"
 
 # History of marks within files (newest to oldest):
+
+> /etc/fstab
+	*	1650833247	0
+	"	1	0
+
+> ~/Downloads/ZED_SDK_Ubuntu18_cuda10.2_v3.7.2.run
+	*	1650743975	0
+	"	1	0
 
 > /README.txt
 	*	1643308244	0
